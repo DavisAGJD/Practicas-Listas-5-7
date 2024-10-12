@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificar Palabras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Clasificación de Palabras</h1>
+
+    <div id="word-form">
+        <h3>Agregar Palabra</h3>
+        <label for="wordInput">Ingrese una palabra:</label>
+        <input type="text" id="wordInput" required><br>
+        <button id="addWordBtn">Añadir Palabra</button>
+    </div>
+
+    <div id="word-lists">
+        <h2>Listas por Letra Inicial</h2>
+        <div id="letterLists"></div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
